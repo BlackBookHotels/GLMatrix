@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "GLMatrix",
+    platforms: [
+        .iOS(.v8)
+    ],
     products: [
         .library(
             name: "GLMatrix",
